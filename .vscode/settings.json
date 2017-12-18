@@ -1,0 +1,9 @@
+{
+    // Module Paths to scan. Use ${workspaceRoot} for workspace lookup.
+    "node-module-intellisense.modulePaths": [
+        "app",
+        "types",
+        "node_modules"
+    ]
+
+}

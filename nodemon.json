@@ -1,0 +1,7 @@
+{
+    "exec": "ts-node",
+    "watch": [
+        "app/**/*.ts",
+        "app.ts"
+    ]
+}

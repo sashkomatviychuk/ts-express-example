@@ -1,0 +1,27 @@
+{
+    "extends": "tslint:recommended",
+    "rules": {
+        "arrow-parens": false,
+        "max-line-length": [true, 160],
+        "no-consecutive-blank-lines": false,
+        "no-duplicate-variable": true,
+        "no-eval": true,
+        "no-string-literal": false,
+        "no-console": [
+            true,
+            "debug",
+            "time",
+            "timeEnd",
+            "trace"
+        ],
+        "no-inferrable-types": [true, "ignore-params"],
+        "no-switch-case-fall-through": true,
+        "ordered-imports": false,
+        "object-literal-sort-keys": false,
+        "typedef": [true, "call-signature", "parameter"],
+        "trailing-comma": [true, {
+            "multiline": "never",
+            "singleline": "never"
+        }]
+    }
+}
