@@ -19,11 +19,11 @@
         ]
     },
     "include": [
-        "app/**/*.ts",
-        "types/**/*.ts"
+        "./app/**/*.ts",
+        "./types/**/*.ts"
     ],
     "exclude": [
-        "node_modules",
-        "bin"
+        "./node_modules",
+        "./bin"
     ]
 }
