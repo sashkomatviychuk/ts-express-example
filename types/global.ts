@@ -1,6 +1,6 @@
 import { Request } from 'express'
 
-class ISpecialRequestParams {
+interface ISpecialRequestParams {
     id: number;
 }
 
