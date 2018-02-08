@@ -9,6 +9,7 @@
         "outDir": "dist",
         "target": "es6",
         "module": "commonjs",
+        "baseUrl": ".",
         "typeRoots": [
             "node_modules/@types"
         ],
@@ -16,7 +17,10 @@
             "es2016",
             "dom",
             "esnext"
-        ]
+        ],
+        "paths": {
+            "@my/*": ["./types/*"]
+        }
     },
     "include": [
         "./app/**/*.ts",

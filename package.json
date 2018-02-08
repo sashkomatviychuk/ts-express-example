@@ -27,6 +27,7 @@
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
     "serve-favicon": "~2.4.2",
+    "tsconfig-paths": "^3.1.1",
     "typescript": "^2.5.3",
     "typings": "^2.1.1"
   }

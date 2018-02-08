@@ -1,5 +1,5 @@
 {
-    "exec": "ts-node",
+    "exec": "ts-node -r tsconfig-paths/register",
     "watch": [
         "app/**/*.ts",
         "app.ts"

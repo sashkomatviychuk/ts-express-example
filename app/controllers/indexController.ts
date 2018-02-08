@@ -1,7 +1,7 @@
 import { basePath, get, post, del } from 'express-decorators'
 import { Request, Response, NextFunction } from 'express'
 import { ensureLoggedIn } from 'connect-ensure-login'
-import { ISpecialRequest } from '../../types/global';
+import { ISpecialRequest } from '@my/global';
 
 @basePath("/")
 class IndexController {
